@@ -1,24 +1,24 @@
 {
-  "name": "@veterancrowd/wrapped-sqs-client",
-  "version": "0.4.7",
+  "name": "@veterancrowd/handlebars",
+  "version": "0.0.0",
   "publishConfig": {
     "access": "public"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/VeteranCrowd/wrapped-sqs-client"
+    "url": "https://github.com/VeteranCrowd/handlebars"
   },
   "author": "Jason G. Williscroft",
   "bugs": {
-    "url": "https://github.com/VeteranCrowd/wrapped-sqs-client/issues"
+    "url": "https://github.com/VeteranCrowd/handlebars/issues"
   },
   "description": "An AWS SQS client wrapped to provide consistent logging and other services.",
-  "homepage": "https://github.com/VeteranCrowd/wrapped-sqs-client#readme",
+  "homepage": "https://github.com/VeteranCrowd/handlebars#readme",
   "keywords": [],
   "dependencies": {
-    "@aws-sdk/client-sqs": "^3.454.0",
-    "aws-xray-sdk": "^3.5.3",
-    "lodash": "^4.17.21"
+    "handlebars": "^4.7.8",
+    "lodash": "^4.17.21",
+    "numeral": "^2.0.6"
   },
   "devDependencies": {
     "@babel/cli": "^7.23.4",
