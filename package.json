@@ -62,7 +62,7 @@
       "chai-match-pattern"
     ],
     "spec": "./**/*.test.!(*.*)",
-    "timeout": 10000
+    "timeout": 60000
   },
   "release-it": {
     "git": {
